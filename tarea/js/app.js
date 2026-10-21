@@ -3,7 +3,7 @@ async function mostrarPosts() {
   try {
     // 1. Pedir las publicaciones del usuario 1
     const res = await fetch(
-      "https://jsonplaceholder.typicode.com/posts?userId=1/error",
+      "https://jsonplaceholder.typicode.com/posts?userId=1",
     );
     // Comprobar si la petición fue exitosa
     if (!res.ok) {
